@@ -1,0 +1,714 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Woocommerce Accounting Expert v1.08\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-01-08 15:08+0100\n"
+"PO-Revision-Date: 2021-01-08 15:09+0100\n"
+"Last-Translator: Bastien Ho <bastien@avecnous.eu>\n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n>1;\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: languages\n"
+"X-Poedit-SearchPath-1: .\n"
+
+# @ default
+#: inc/export-refunds.php:1166 inc/export.php:894
+msgid "No data to export. Please try with another period."
+msgstr "Aucune donnée à exporter. Veuillez essayer une autre période."
+
+# @
+#: inc/settings.php:23
+msgid "Accounting"
+msgstr "Comptabilité"
+
+# @
+#: inc/settings.php:58 views/export-basic.php:85
+msgid "General"
+msgstr "Général"
+
+# @
+#: views/export-basic.php:2 views/export-refunds.php:2
+msgid "Export settings"
+msgstr "Paramètres d'export"
+
+# @
+#: views/export-basic.php:3
+msgid "Configure your export and export completed orders."
+msgstr "Paramétrez votre export et exportez les commandes terminées."
+
+# @
+#: views/export-basic.php:25 views/export-basic.php:64
+#: views/export-refunds.php:25 views/export-refunds.php:56
+#: views/settings-accounting-general.php:189
+msgid "Date"
+msgstr "Date"
+
+# @
+#: views/export-basic.php:30 views/export-refunds.php:30
+msgid "From:"
+msgstr "De :"
+
+# @
+#: views/export-basic.php:31 views/export-refunds.php:31
+msgid "Start"
+msgstr "Début"
+
+# @
+#: views/export-basic.php:34 views/export-refunds.php:34
+msgid "To:"
+msgstr "à :"
+
+# @
+#: views/export-basic.php:35 views/export-refunds.php:35
+msgid "End"
+msgstr "Fin"
+
+# @
+#: views/export-basic.php:38 views/export-refunds.php:38
+msgid "Format"
+msgstr "Format"
+
+# @
+#: views/export-basic.php:43 views/export-refunds.php:40
+msgid "Standard"
+msgstr "Standard"
+
+# @
+#: views/export-basic.php:44 views/export-refunds.php:41
+msgid "D-M-Y"
+msgstr "J-M-A"
+
+# @
+#: views/export-basic.php:45 views/export-refunds.php:42
+msgid "M-D-Y"
+msgstr "M-J-A"
+
+# @
+#: views/export-basic.php:46 views/export-refunds.php:43
+msgid "Y-M-D"
+msgstr "A-M-J"
+
+# @
+#: views/export-basic.php:47 views/export-refunds.php:44
+msgid "D/M/Y"
+msgstr "J/M/A"
+
+# @
+#: views/export-basic.php:48 views/export-refunds.php:45
+msgid "M/D/Y"
+msgstr "M/J/A"
+
+# @
+#: views/export-basic.php:49 views/export-refunds.php:46
+msgid "Y/M/D"
+msgstr "A/M/J"
+
+# @
+#: views/export-basic.php:59 views/export-refunds.php:51
+msgid "Export options"
+msgstr "Paramètres d'export"
+
+# @
+#: views/export-basic.php:69
+msgid "Order"
+msgstr "Commande"
+
+# @
+#: views/export-basic.php:70
+msgid "Validation"
+msgstr "Validation"
+
+#: views/export-basic.php:71
+msgid "Paid"
+msgstr "Payé"
+
+# @
+#: views/export-basic.php:79 views/export-refunds.php:65
+msgid "Display Gateway?"
+msgstr "Voir le mode de paiement ?"
+
+# @
+#: views/export-basic.php:84
+msgid "No"
+msgstr "Non"
+
+# @
+#: views/export-basic.php:86
+msgid "Personalised"
+msgstr "Personnalisé"
+
+# @
+#: views/export-basic.php:94 views/export-refunds.php:73
+msgid "Piece Number"
+msgstr "Numéro de pièce"
+
+# @
+#: views/export-basic.php:99
+msgid "Invoice number (if exists)"
+msgstr "Numéro de Facture (si éditée)"
+
+# @
+#: views/export-basic.php:100
+msgid "Order number (Invoice num in Lib)"
+msgstr "Numéro de commande (N° de fact. dans Lib.)"
+
+# @
+#: views/export-basic.php:112 views/export-refunds.php:84
+#: views/settings-accounting-general.php:56
+msgid "Customers"
+msgstr "Clients"
+
+# @
+#: views/export-basic.php:117 views/export-refunds.php:87
+msgid "by Gateway type"
+msgstr "Par moyen de paiement"
+
+# @
+#: views/export-basic.php:125 views/export-refunds.php:91
+#: views/settings-accounting-general.php:38
+msgid "Products"
+msgstr "Produits"
+
+# @
+#: views/export-basic.php:130 views/export-basic.php:144
+#: views/export-basic.php:157 views/export-refunds.php:93
+#: views/export-refunds.php:101 views/export-refunds.php:108
+msgid "Simple"
+msgstr "Simple"
+
+# @
+#: views/export-basic.php:131 views/export-refunds.php:95
+msgid "Simple by Country"
+msgstr "Simple par pays"
+
+# @
+#: views/export-basic.php:139 views/export-refunds.php:99
+msgid "Taxes"
+msgstr "Taxes"
+
+# @
+#: views/export-basic.php:152 views/export-refunds.php:106
+msgid "Delivery Options"
+msgstr "Méthodes d'expédition"
+
+# @
+#: views/export-basic.php:165 views/export-refunds.php:113
+msgid "Fill opposite amount with :"
+msgstr "Remplir le montant opposé avec :"
+
+# @
+#: views/export-basic.php:170 views/export-refunds.php:115
+msgid "Nothing"
+msgstr "Case vide"
+
+# @
+#: views/export-basic.php:171 views/export-refunds.php:116
+msgid "Zero"
+msgstr "Zéro"
+
+# @
+#: views/export-basic.php:180 views/export-refunds.php:121
+msgid "Decimal Separator"
+msgstr "Séparateur de décimale"
+
+# @
+#: views/export-basic.php:183 views/export-refunds.php:124
+msgid "CSV Separator"
+msgstr "Séparateur CSV"
+
+# @
+#: views/export-basic.php:192 views/export-refunds.php:130
+msgid "Period"
+msgstr "Point"
+
+# @
+#: views/export-basic.php:193 views/export-basic.php:205
+#: views/export-refunds.php:131 views/export-refunds.php:136
+msgid "Comma"
+msgstr "Virgule"
+
+# @
+#: views/export-basic.php:206 views/export-refunds.php:137
+msgid "Semi-Colon"
+msgstr "Point-virgule"
+
+# @
+#: views/export-basic.php:207 views/export-refunds.php:138
+msgid "Tab"
+msgstr "Tabulation"
+
+# @
+#: views/export-basic.php:215 views/export-refunds.php:142
+msgid "Export!"
+msgstr "Exporter !"
+
+# @
+#: views/export-refunds.php:3
+msgid "Configure your export and export refunds."
+msgstr "Configurez votre export pour obtenir vos avoirs."
+
+# @
+#: views/export-refunds.php:58
+msgid "Refund"
+msgstr "Avoirs"
+
+# @
+#: views/export-refunds.php:60
+msgid "Credit note"
+msgstr "Facture d'avoir"
+
+# @
+#: views/export-refunds.php:67
+msgid "Manual (No display)"
+msgstr "Manuel (pas d'affichage)"
+
+# @
+#: views/export-refunds.php:68
+msgid "Same as Parent (General)"
+msgstr "Identique à la commande parente (général)"
+
+# @
+#: views/export-refunds.php:69
+msgid "Same as Parent (Personalised)"
+msgstr "Identique à la commande parente (personnalisé)"
+
+# @
+#: views/export-refunds.php:75
+msgid "Refund Invoice number (if exists)"
+msgstr "Numéro de facture d'avoir (si éditée)"
+
+# @
+#: views/export-refunds.php:76
+msgid "Parent Order number (Refund Invoice num in Lib)"
+msgstr "Numéro de commande parente (N° d'avoir dans le lib.)"
+
+# @
+#: views/export-refunds.php:86
+msgid "by Customer"
+msgstr "Par client"
+
+# @
+#: views/export-refunds.php:94 views/export-refunds.php:102
+#: views/export-refunds.php:109
+msgid "Detailed"
+msgstr "Détaillé"
+
+#: views/export.php:4
+msgid "Basic"
+msgstr "Basique"
+
+# @
+#: views/export.php:5
+msgid "Refunds"
+msgstr "Avoirs"
+
+# @
+#: views/export.php:15 views/settings-accounting-welcome.php:3
+msgid "Woocommerce Accounting"
+msgstr "Woocommerce Accounting"
+
+# @
+#: views/settings-accounting-general.php:6
+msgid "Order Type to Export"
+msgstr "Statut des commandes à exporter"
+
+# @
+#: views/settings-accounting-general.php:10
+msgid "Payment Status"
+msgstr "Paramètres des modes de paiement"
+
+#: views/settings-accounting-general.php:11
+msgid "Book name"
+msgstr "Export compta"
+
+# @
+#: views/settings-accounting-general.php:12
+msgid "Account number"
+msgstr "Compte comptable"
+
+# @
+#: views/settings-accounting-general.php:43
+msgid "Account code - Product"
+msgstr "Compte comptable - produit"
+
+# @
+#: views/settings-accounting-general.php:49
+msgid "Cost center - Product"
+msgstr "Code analytique - produit"
+
+# @
+#: views/settings-accounting-general.php:61
+msgid "Account code - Customer"
+msgstr "Compte comptable - client"
+
+# @
+#: views/settings-accounting-general.php:69
+msgid "Taxes and delivery options"
+msgstr "Paramètres de taxes et modes d'expédition"
+
+# @
+#: views/settings-accounting-general.php:73
+msgid "Account code - Tax"
+msgstr "Compte comptable - Taxe"
+
+# @
+#: views/settings-accounting-general.php:78
+msgid "Account code - Delivery options"
+msgstr "Compte comptable - méthode d'expédition"
+
+# @
+#: views/settings-accounting-general.php:89
+msgid "Cost center - Delivery options"
+msgstr "Code analytique - méthode d'expédition"
+
+#: views/settings-accounting-general.php:98
+msgid "Discount"
+msgstr "Promo"
+
+# @
+#: views/settings-accounting-general.php:102
+msgid "Account code - Discount"
+msgstr "Compte comptable - promo"
+
+# @
+#: views/settings-accounting-general.php:107
+msgid "Cost center - Discount"
+msgstr "Code analytique - promo"
+
+#: views/settings-accounting-general.php:114
+msgid "Product SKU - Discount"
+msgstr "UGS produit - promo"
+
+# @
+#: views/settings-accounting-general.php:126
+msgid "Journal reference number"
+msgstr "Code journal"
+
+# @
+#: views/settings-accounting-general.php:131
+msgid "Sales journal reference number"
+msgstr "Code journal des ventes"
+
+# @
+#: views/settings-accounting-general.php:143
+msgid "Description Prefix"
+msgstr "Préfixe de libellé"
+
+# @
+#: views/settings-accounting-general.php:148
+msgid "Description prefix"
+msgstr "Préfixe de libellé"
+
+# @
+#: views/settings-accounting-general.php:161
+msgid "Exceptional incomes and costs"
+msgstr "Crédits et charges exceptionnels"
+
+# @
+#: views/settings-accounting-general.php:165
+msgid "Exceptional incomes"
+msgstr "Crédits exceptionnels"
+
+# @
+#: views/settings-accounting-general.php:171
+msgid "Exceptional costs"
+msgstr "Charges exceptionnelles"
+
+# @
+#: views/settings-accounting-general.php:178
+msgid "CSV Columns Headers"
+msgstr "Entêtes de colonnes CSV"
+
+# @
+#: views/settings-accounting-general.php:183
+msgid "Sales Journal"
+msgstr "Journal des ventes"
+
+# @
+#: views/settings-accounting-general.php:195
+msgid "Invoice Number"
+msgstr "Numéro de facture"
+
+# @
+#: views/settings-accounting-general.php:201
+msgid "Accounting Code"
+msgstr "Compte comptable"
+
+# @
+#: views/settings-accounting-general.php:207
+msgid "Label"
+msgstr "Libellé"
+
+# @
+#: views/settings-accounting-general.php:213
+msgid "Outcome"
+msgstr "Débit"
+
+# @
+#: views/settings-accounting-general.php:219
+msgid "Income"
+msgstr "Crédit"
+
+# @
+#: views/settings-accounting-general.php:225
+msgid "Cost Center"
+msgstr "Code analytique"
+
+# @
+#: views/settings-accounting-general.php:232
+msgid "Columns Order"
+msgstr "Ordre des colonnes"
+
+#: views/settings-accounting-welcome.php:4
+msgid ""
+"All you need to transfer accounting data from Woocommerce to accounting "
+"softwares!"
+msgstr ""
+"Tout ce dont vous avez besoin pour exporter vos données comptables de "
+"WooCommerce vers votre logiciel de comptabilité !"
+
+# @
+#: views/settings-accounting-welcome.php:5
+msgid "Welcome!"
+msgstr "Bienvenue !"
+
+# @
+#: views/settings-accounting-welcome.php:6
+msgid "Thanks for purchasing Woocommerce Accounting"
+msgstr "Merci d'avoir acheté Woocommerce Accounting"
+
+# @
+#: views/settings-accounting-welcome.php:7
+msgid ""
+"This plugin helps you export your completed Woocommerce orders in a CSV "
+"format for an easy upload into your accounting software. It is now possible "
+"to add accounting codes for products, customers, taxes and freight costs. "
+"You can also add references for products and freight costs."
+msgstr ""
+"Cette extension vous permet d’exporter vos commandes WooCommerce terminées "
+"en CSV formaté pour être facile à importer dans votre logiciel comptable. Il "
+"est donc maintenant possible d’ajouter les comptes comptables pour les "
+"produits, clients, taxes et frais de port. Mais aussi d'ajouter les codes "
+"analytiques des produits et frais de port."
+
+# @
+#: views/settings-accounting-welcome.php:8
+msgid "How to use this plugin?"
+msgstr "Comment utiliser ce plugin ?"
+
+# @
+#: views/settings-accounting-welcome.php:9
+msgid "Fill out the settings fields."
+msgstr "Remplissez les champs de paramètres."
+
+# @
+#: views/settings-accounting-welcome.php:10
+msgid "Save"
+msgstr "Sauvegarder"
+
+# @
+#: views/settings-accounting-welcome.php:11
+msgid "Export your file with your export settings."
+msgstr "Exportez votre fichier avec vos paramètres d'export."
+
+# @
+#: views/settings-accounting-welcome.php:12
+msgid ""
+"In your accounting software, ensure that the upload settings exactly match "
+"your online store export data."
+msgstr ""
+"Dans votre logiciel de comptabilité, assurez vous du bon paramétrage du "
+"profil d'import pour coller exactement au fichier exporté depuis votre "
+"boutique."
+
+# @
+#: views/settings-accounting-welcome.php:13
+msgid "Always test with only one order."
+msgstr "Faites toujours un test avec une seule commande."
+
+# @
+#: views/settings-accounting-welcome.php:14
+msgid "Upload and start saving time and money on your book keeping!"
+msgstr ""
+"Importez et commencez à gagner du temps et de l'argent sur votre saisie "
+"comptable !"
+
+# @
+#: views/settings-accounting-welcome.php:16
+msgid "Enjoy!"
+msgstr "Profitez de la vie !"
+
+# @
+#: woocommerce-accounting.php:48
+msgid "Accounting Export"
+msgstr "Export comptable"
+
+#: woocommerce-accounting.php:61 woocommerce-accounting.php:69
+msgid "Insuffisant permissions"
+msgstr "Droits insuffisants"
+
+# @
+#~ msgid "Accounting Settings"
+#~ msgstr "Paramètres de comptabilité"
+
+# @
+#~ msgid "Account Code"
+#~ msgstr "Compte comptable"
+
+# @
+#~ msgid "Please enter the customer account code here."
+#~ msgstr "Merci de saisir le compte comptable client ici."
+
+# @
+#~ msgid "Account code"
+#~ msgstr "Compte comptable"
+
+# @
+#~ msgid "Enter the product account code here"
+#~ msgstr "Merci d'entrer le compte comptable produit ici"
+
+# @
+#~ msgid "Enter the product cost center here"
+#~ msgstr "Merci d'entrer le code analytique produit ici"
+
+# @
+#~ msgid "Countries"
+#~ msgstr "Pays"
+
+# @
+#~ msgid "Shipping"
+#~ msgstr "Expédition"
+
+# @
+#~ msgid "Gateways"
+#~ msgstr "Modes de paiement"
+
+# @
+#~ msgid "Billing"
+#~ msgstr "Facturation"
+
+# @
+#~ msgid "Woocommerce Legacy Delivery options"
+#~ msgstr "Options de livraison Woocommerce d'origine"
+
+# @
+#~ msgid "Cost center"
+#~ msgstr "Code analytique"
+
+# @
+#~ msgid "Woocommerce Shipping Zones and Table Rates"
+#~ msgstr "Zones et tables de livraison Woocommerce"
+
+# @
+#~ msgid "Bolder Elements Table Rates"
+#~ msgstr "Tables Rates de Bolder Elements"
+
+# @
+#~ msgid "Export Orders"
+#~ msgstr "Exporter commandes"
+
+# @
+#~ msgid "Export Refunds"
+#~ msgstr "Exporter avoirs"
+
+# @
+#~ msgid "Your settings have been saved."
+#~ msgstr "Vos paramètres ont bien été enregistrés."
+
+# @
+#~ msgid "Settings"
+#~ msgstr "Paramètres"
+
+# @
+#~ msgid "Please enter the following data:"
+#~ msgstr "Merci de remplir les données suivantes :"
+
+# @
+#~ msgid ""
+#~ "General settings are applied when no account code or cost center are "
+#~ "entered."
+#~ msgstr ""
+#~ "Les paramètres généraux sont appliqués quand les comptes et codes "
+#~ "spécifiques ne sont pas paramétrés."
+
+# @
+#~ msgid ""
+#~ "You can chose to use country accounting code for products before export, "
+#~ "here is the set up"
+#~ msgstr ""
+#~ "Pour utiliser les comptes comptables pays pour les produits lors de "
+#~ "l'export, vous pouvez les paramétrer ici"
+
+# @
+#~ msgid "Authorized Countries on the shop"
+#~ msgstr "Pays autorisés dans vos réglages Woocommerce"
+
+# @
+#~ msgid "Payment Gateways Settings"
+#~ msgstr "Paramètres des modes de paiement"
+
+# @
+#~ msgid "Woocommerce settings allow payment gateways options to be modified"
+#~ msgstr ""
+#~ "Les modes de paiement peuvent être modifiées dans les paramètres de "
+#~ "WooCommerce"
+
+# @
+#~ msgid "Available gateways"
+#~ msgstr "Modes de paiement disponibles"
+
+# @
+#~ msgid "Delivery Options Settings"
+#~ msgstr "Paramètres des méthodes d'expédition"
+
+# @
+#~ msgid "Woocommerce settings allow delivery options to be modified"
+#~ msgstr ""
+#~ "Les méthodes d'expéditions peuvent être modifiées dans les paramètres de "
+#~ "WooCommerce"
+
+# @
+#~ msgid "Account code - delivery options"
+#~ msgstr "Compte comptable - méthode d'expédition"
+
+# @
+#~ msgid "Tax Settings"
+#~ msgstr "Paramètres des taxes"
+
+# @
+#~ msgid "Various taxes can be modified in the Woocommerce settings."
+#~ msgstr ""
+#~ "Les différentes taxes peuvent être modifiées dans les paramètres "
+#~ "Woocommerce."
+
+# @
+#~ msgid "Account code - taxes"
+#~ msgstr "Compte comptable - taxes"
+
+# @
+#~ msgid "Need more help?"
+#~ msgstr "Besoin d'aide ?"
+
+#~ msgid "Book Keeper"
+#~ msgstr "Export compta"
+
+# @
+#~ msgid "Instructions"
+#~ msgstr "Instructions"
+
+# @
+#~ msgid "General Settings"
+#~ msgstr "Paramètres généraux"
+
+# @
+#~ msgid "Taxes Settings"
+#~ msgstr "Paramètres des taxes"

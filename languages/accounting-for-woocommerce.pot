@@ -1,0 +1,444 @@
+# Loco Gettext template
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Woocommerce Accounting Expert\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-02-18 12:51+0100\n"
+"POT-Revision-Date: Fri Jun 03 2016 17:19:30 GMT+0200 (Paris, Madrid (heure "
+"d’été))\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;"
+"_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;esc_attr__;esc_attr_e;"
+"esc_attr_x:1,2c;esc_html__;esc_html_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: .\n"
+
+#: inc/export-refunds.php:1166 inc/export.php:896
+msgid "No data to export. Please try with another period."
+msgstr ""
+
+#: inc/settings.php:26 inc/settings.php:41 views/settings-accounting-welcome.php:2
+msgid "Accounting"
+msgstr ""
+
+#: inc/settings.php:76 views/export-basic.php:85
+msgid "General"
+msgstr ""
+
+#: views/export-basic.php:2 views/export-refunds.php:2
+msgid "Export settings"
+msgstr ""
+
+#: views/export-basic.php:3
+msgid "Configure your export and export completed orders."
+msgstr ""
+
+#: views/export-basic.php:25 views/export-basic.php:64 views/export-refunds.php:25
+#: views/export-refunds.php:56 views/settings-accounting-general.php:189
+msgid "Date"
+msgstr ""
+
+#: views/export-basic.php:30 views/export-refunds.php:30
+msgid "From:"
+msgstr ""
+
+#: views/export-basic.php:31 views/export-refunds.php:31
+msgid "Start"
+msgstr ""
+
+#: views/export-basic.php:34 views/export-refunds.php:34
+msgid "To:"
+msgstr ""
+
+#: views/export-basic.php:35 views/export-refunds.php:35
+msgid "End"
+msgstr ""
+
+#: views/export-basic.php:38 views/export-refunds.php:38
+msgid "Format"
+msgstr ""
+
+#: views/export-basic.php:43 views/export-refunds.php:40
+msgid "Standard"
+msgstr ""
+
+#: views/export-basic.php:44 views/export-refunds.php:41
+msgid "D-M-Y"
+msgstr ""
+
+#: views/export-basic.php:45 views/export-refunds.php:42
+msgid "M-D-Y"
+msgstr ""
+
+#: views/export-basic.php:46 views/export-refunds.php:43
+msgid "Y-M-D"
+msgstr ""
+
+#: views/export-basic.php:47 views/export-refunds.php:44
+msgid "D/M/Y"
+msgstr ""
+
+#: views/export-basic.php:48 views/export-refunds.php:45
+msgid "M/D/Y"
+msgstr ""
+
+#: views/export-basic.php:49 views/export-refunds.php:46
+msgid "Y/M/D"
+msgstr ""
+
+#: views/export-basic.php:59 views/export-refunds.php:51
+msgid "Export options"
+msgstr ""
+
+#: views/export-basic.php:69
+msgid "Order"
+msgstr ""
+
+#: views/export-basic.php:70
+msgid "Validation"
+msgstr ""
+
+#: views/export-basic.php:71
+msgid "Paid"
+msgstr ""
+
+#: views/export-basic.php:79 views/export-refunds.php:65
+msgid "Display Gateway?"
+msgstr ""
+
+#: views/export-basic.php:84
+msgid "No"
+msgstr ""
+
+#: views/export-basic.php:86
+msgid "Personalised"
+msgstr ""
+
+#: views/export-basic.php:94 views/export-refunds.php:73
+msgid "Piece Number"
+msgstr ""
+
+#: views/export-basic.php:99
+msgid "Invoice number (if exists)"
+msgstr ""
+
+#: views/export-basic.php:100
+msgid "Order number (Invoice num in Lib)"
+msgstr ""
+
+#: views/export-basic.php:112 views/export-refunds.php:84
+#: views/settings-accounting-general.php:56
+msgid "Customers"
+msgstr ""
+
+#: views/export-basic.php:117 views/export-refunds.php:87
+msgid "by Gateway type"
+msgstr ""
+
+#: views/export-basic.php:125 views/export-refunds.php:91
+#: views/settings-accounting-general.php:38
+msgid "Products"
+msgstr ""
+
+#: views/export-basic.php:130 views/export-basic.php:144 views/export-basic.php:157
+#: views/export-refunds.php:93 views/export-refunds.php:101
+#: views/export-refunds.php:108
+msgid "Simple"
+msgstr ""
+
+#: views/export-basic.php:131 views/export-refunds.php:95
+msgid "Simple by Country"
+msgstr ""
+
+#: views/export-basic.php:139 views/export-refunds.php:99
+msgid "Taxes"
+msgstr ""
+
+#: views/export-basic.php:152 views/export-refunds.php:106
+msgid "Delivery Options"
+msgstr ""
+
+#: views/export-basic.php:165 views/export-refunds.php:113
+msgid "Fill opposite amount with :"
+msgstr ""
+
+#: views/export-basic.php:170 views/export-refunds.php:115
+msgid "Nothing"
+msgstr ""
+
+#: views/export-basic.php:171 views/export-refunds.php:116
+msgid "Zero"
+msgstr ""
+
+#: views/export-basic.php:180 views/export-refunds.php:121
+msgid "Decimal Separator"
+msgstr ""
+
+#: views/export-basic.php:183 views/export-refunds.php:124
+msgid "CSV Separator"
+msgstr ""
+
+#: views/export-basic.php:192 views/export-refunds.php:130
+msgid "Period"
+msgstr ""
+
+#: views/export-basic.php:193 views/export-basic.php:205 views/export-refunds.php:131
+#: views/export-refunds.php:136
+msgid "Comma"
+msgstr ""
+
+#: views/export-basic.php:206 views/export-refunds.php:137
+msgid "Semi-Colon"
+msgstr ""
+
+#: views/export-basic.php:207 views/export-refunds.php:138
+msgid "Tab"
+msgstr ""
+
+#: views/export-basic.php:215 views/export-refunds.php:142
+msgid "Export!"
+msgstr ""
+
+#: views/export-refunds.php:3
+msgid "Configure your export and export refunds."
+msgstr ""
+
+#: views/export-refunds.php:58
+msgid "Refund"
+msgstr ""
+
+#: views/export-refunds.php:60
+msgid "Credit note"
+msgstr ""
+
+#: views/export-refunds.php:67
+msgid "Manual (No display)"
+msgstr ""
+
+#: views/export-refunds.php:68
+msgid "Same as Parent (General)"
+msgstr ""
+
+#: views/export-refunds.php:69
+msgid "Same as Parent (Personalised)"
+msgstr ""
+
+#: views/export-refunds.php:75
+msgid "Refund Invoice number (if exists)"
+msgstr ""
+
+#: views/export-refunds.php:76
+msgid "Parent Order number (Refund Invoice num in Lib)"
+msgstr ""
+
+#: views/export-refunds.php:86
+msgid "by Customer"
+msgstr ""
+
+#: views/export-refunds.php:94 views/export-refunds.php:102
+#: views/export-refunds.php:109
+msgid "Detailed"
+msgstr ""
+
+#: views/export.php:4
+msgid "Basic"
+msgstr ""
+
+#: views/export.php:5
+msgid "Refunds"
+msgstr ""
+
+#: views/export.php:15 woocommerce-accounting.php:48
+msgid "Accounting Export"
+msgstr ""
+
+#: views/settings-accounting-general.php:6
+msgid "Order statuses"
+msgstr ""
+
+#: views/settings-accounting-general.php:10
+msgid "Order status"
+msgstr ""
+
+#: views/settings-accounting-general.php:11
+msgid "Book name"
+msgstr ""
+
+#: views/settings-accounting-general.php:12
+msgid "Account number"
+msgstr ""
+
+#: views/settings-accounting-general.php:43
+msgid "Account code - Product"
+msgstr ""
+
+#: views/settings-accounting-general.php:49
+msgid "Cost center - Product"
+msgstr ""
+
+#: views/settings-accounting-general.php:61
+msgid "Account code - Customer"
+msgstr ""
+
+#: views/settings-accounting-general.php:69
+msgid "Taxes and delivery options"
+msgstr ""
+
+#: views/settings-accounting-general.php:73
+msgid "Account code - Tax"
+msgstr ""
+
+#: views/settings-accounting-general.php:78
+msgid "Account code - Delivery options"
+msgstr ""
+
+#: views/settings-accounting-general.php:89
+msgid "Cost center - Delivery options"
+msgstr ""
+
+#: views/settings-accounting-general.php:98
+msgid "Discount"
+msgstr ""
+
+#: views/settings-accounting-general.php:102
+msgid "Account code - Discount"
+msgstr ""
+
+#: views/settings-accounting-general.php:107
+msgid "Cost center - Discount"
+msgstr ""
+
+#: views/settings-accounting-general.php:114
+msgid "Product SKU - Discount"
+msgstr ""
+
+#: views/settings-accounting-general.php:126
+msgid "Book reference number"
+msgstr ""
+
+#: views/settings-accounting-general.php:131
+msgid "Sales journal reference number"
+msgstr ""
+
+#: views/settings-accounting-general.php:143
+msgid "Description Prefix"
+msgstr ""
+
+#: views/settings-accounting-general.php:148
+msgid "Description prefix"
+msgstr ""
+
+#: views/settings-accounting-general.php:161
+msgid "Exceptional incomes and costs"
+msgstr ""
+
+#: views/settings-accounting-general.php:165
+msgid "Exceptional incomes"
+msgstr ""
+
+#: views/settings-accounting-general.php:171
+msgid "Exceptional costs"
+msgstr ""
+
+#: views/settings-accounting-general.php:178
+msgid "CSV Columns Headers"
+msgstr ""
+
+#: views/settings-accounting-general.php:183
+msgid "Sales Journal"
+msgstr ""
+
+#: views/settings-accounting-general.php:195
+msgid "Invoice Number"
+msgstr ""
+
+#: views/settings-accounting-general.php:201
+msgid "Accounting Code"
+msgstr ""
+
+#: views/settings-accounting-general.php:207
+msgid "Label"
+msgstr ""
+
+#: views/settings-accounting-general.php:213
+msgid "Outcome"
+msgstr ""
+
+#: views/settings-accounting-general.php:219
+msgid "Income"
+msgstr ""
+
+#: views/settings-accounting-general.php:225
+msgid "Cost Center"
+msgstr ""
+
+#: views/settings-accounting-general.php:232
+msgid "Columns Order"
+msgstr ""
+
+#: views/settings-accounting-welcome.php:3
+msgid ""
+"All you need to transfer accounting data from Woocommerce to accounting softwares!"
+msgstr ""
+
+#: views/settings-accounting-welcome.php:4
+msgid "Welcome!"
+msgstr ""
+
+#: views/settings-accounting-welcome.php:5
+msgid "Thanks for using <strong>Accounting for Woocommerce</strong>"
+msgstr ""
+
+#: views/settings-accounting-welcome.php:6
+msgid ""
+"This plugin helps you export your completed Woocommerce orders in a CSV format for "
+"an easy upload into your accounting software."
+msgstr ""
+
+#: views/settings-accounting-welcome.php:7
+msgid "How to use this plugin?"
+msgstr ""
+
+#: views/settings-accounting-welcome.php:8
+msgid "Fill out the settings fields."
+msgstr ""
+
+#: views/settings-accounting-welcome.php:9
+msgid "Save"
+msgstr ""
+
+#: views/settings-accounting-welcome.php:10
+msgid "Export your file with your export settings."
+msgstr ""
+
+#: views/settings-accounting-welcome.php:11
+msgid ""
+"In your accounting software, ensure that the upload settings exactly match your "
+"online store export data."
+msgstr ""
+
+#: views/settings-accounting-welcome.php:12
+msgid "Always test with only one order."
+msgstr ""
+
+#: views/settings-accounting-welcome.php:13
+msgid "Upload and start saving time and money on your book keeping!"
+msgstr ""
+
+#: views/settings-accounting-welcome.php:14
+msgid "Enjoy!"
+msgstr ""
+
+#: woocommerce-accounting.php:61 woocommerce-accounting.php:69
+msgid "Insuffisant permissions"
+msgstr ""
